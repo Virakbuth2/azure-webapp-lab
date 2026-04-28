@@ -1,10 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Azure Web App</title>
+  <meta charset="UTF-8">
+  <title>My Azure Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Azure!</h1>
-    <p>This is my first deployments.</p>
+
+  <nav>
+    <h2>MySite</h2>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Hello from Azure 🚀</h1>
+    <p>This site is deployed with GitHub Actions</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">Fast 🚀</div>
+    <div class="card">Simple 💡</div>
+    <div class="card">Cloud ☁️</div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
